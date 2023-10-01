@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-color: rgba(0, 0, 0, 0.563);
+}
+img{
+    width: 200px;
+    position: absolute;
+    border-radius: 20px;
+    top: 0;
+    left: 60px;
+    text-shadow:2px 2px 2px rgb(58, 58, 58);
+}
+.mmm{
+    color: black;
+    text-shadow: 2px 2px 2px rgb(117, 117, 117);
+}
+.exemplo{
+    text-align: center;
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.importante{
+    width: 700px;
+    padding-bottom: 15px;
+    text-align: center;
+    max-width: 100%;
+    margin: 0 auto;
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    text-decoration-color: rgb(130, 0, 251);
+}
+.import{
+    color: rgb(214, 170, 255);
+    width: 330px;
+    text-align: center;
+    position: absolute;
+}
+.container{
+    
+    border-radius: 10px;
+    width: 600px;
+    height: 200px;
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.674);
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+label{
+    margin-top: 5px;
+}
+.mensagem,.number{
+    color: lime;
+}
+.mensagem,.number,button{
+    border-radius: 20px;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 4px;
+    text-align: center;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    border: none;
+    transition: 1s;
+}
+.mm{
+    color: white;
+    text-decoration: none;
+    text-shadow: 3px 3px 3px black;
+}
+button{
+    margin-top: 20px;
+}
+button:hover{
+    background-color: lime;
+    color: white;
+}
+h2{
+    color: white;
+    text-decoration: underline blueviolet;
+    text-shadow: 1px 1px 1px  blueviolet;
+}
+.res{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    background-color: rgba(0, 0, 0, 0.45);
+    color:blueviolet;
+    width: 300px;
+    margin: 0 auto;
+    margin-top: 10px;
+    padding: 6px;
+    border-radius: 10px;
+}
